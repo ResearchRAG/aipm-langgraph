@@ -3,10 +3,10 @@ name: Deploy Docs
 on:
   push:
     branches:
-      - docs
+      - zh
   pull_request:
     branches:
-      - docs
+      - zh
   workflow_dispatch:
 
 env:
@@ -46,17 +46,17 @@ jobs:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}
 
       - name: Configure GitHub Pages
-        if: github.ref == 'refs/heads/docs'
+        if: github.ref == 'refs/heads/zh'
         uses: actions/configure-pages@v4
 
       - name: Upload Pages Artifact
-        if: github.ref == 'refs/heads/docs'
+        if: github.ref == 'refs/heads/zh'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./docs/site/
 
       - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/docs'
+        if: github.ref == 'refs/heads/zh'
         id: deployment
         uses: actions/deploy-pages@v4
 
