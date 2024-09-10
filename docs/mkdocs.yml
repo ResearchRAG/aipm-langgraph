@@ -1,7 +1,7 @@
 site_name: ""
-site_description: Build language agents as graphs
-site_url: https://langchain-ai.github.io/langgraph/
-repo_url: https://github.com/langchain-ai/langgraph
+site_description: 构建图形式的语言代理
+site_url: https://researchrag.github.io/aipm-langgraph/
+repo_url: https://github.com/researchrag/aipm-langgraph
 theme:
   name: material
   custom_dir: overrides
@@ -290,8 +290,8 @@ markdown_extensions:
   - pymdownx.magiclink:
       normalize_issue_symbols: true
       repo_url_shorthand: true
-      user: langchain-ai
-      repo: langgraph
+      user: reserachrag
+      repo: aipm-langgraph
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
@@ -315,15 +315,15 @@ extra_css:
 
 extra:
   social:
-    - icon: fontawesome/brands/js
-      link: https://langchain-ai.github.io/langgraphjs/
+    - icon: fontawesome/brands/discord
+      link: https://theforage.cn
     - icon: fontawesome/brands/github
-      link: https://github.com/langchain-ai/langgraph
+      link: https://github.com/researchrag/aipm-langgraph
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/LangChainAI
+      link: https://x.com/aipmhub
   analytics:
     - provider: google
-    - property: G-G8X6ELZYE0
+    - property: G-GGGGGGGGGG
     - feedback:
       title: Was this page helpful?
       ratings:
@@ -342,3 +342,4 @@ validation:
   absolute_links: warn
   unrecognized_links: warn
   anchors: warn
+  
