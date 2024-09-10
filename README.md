@@ -248,4 +248,4 @@ final_state["messages"][-1].content
 
 ## 贡献
 
-有关如何贡献的更多信息，请参见 [这里](https://github.com/langchain-ai/langgraph/blob/main/CONTRIBUTING.md)。
+有关如何贡献的更多信息，请参见 [这里](https://github.com/researchrag/aipm-langgraph/blob/main/CONTRIBUTING.md)。

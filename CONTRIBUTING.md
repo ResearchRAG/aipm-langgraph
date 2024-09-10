@@ -20,7 +20,7 @@ For bug fixes, please open up an issue before proposing a fix to ensure the prop
 
 ### New features
 
-For new features, please start a new [discussion](https://github.com/langchain-ai/langgraph/discussions), where the maintainers will help with scoping out the necessary changes.
+For new features, please start a new [discussion](https://github.com/researchrag/aipm-langgraph/discussions), where the maintainers will help with scoping out the necessary changes.
 
 ## Contribute Documentation
 
