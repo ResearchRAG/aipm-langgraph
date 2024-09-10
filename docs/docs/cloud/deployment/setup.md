@@ -2,13 +2,13 @@
 
 A LangGraph application must be configured with a [LangGraph API configuration file](../reference/cli.md#configuration-file) in order to be deployed to LangGraph Cloud (or to be self-hosted). This how-to guide discusses the basic steps to setup a LangGraph application for deployment using `requirements.txt` to specify project dependencies.
 
-This walkthrough is based on [this repository](https://github.com/langchain-ai/langgraph-example), which you can play around with to learn more about how to setup your LangGraph application for deployment.
+This walkthrough is based on [this repository](https://github.com/researchrag/aipm-langgraph-example), which you can play around with to learn more about how to setup your LangGraph application for deployment.
 
 !!! tip "Setup with pyproject.toml"
     If you prefer using poetry for dependency management, check out [this how-to guide](./setup_pyproject.md) on using `pyproject.toml` for LangGraph Cloud.
 
 !!! tip "Setup with a Monorepo"
-    If you are interested in deploying a graph located inside a monorepo, take a look at [this](https://github.com/langchain-ai/langgraph-example-monorepo) repository for an example of how to do so.
+    If you are interested in deploying a graph located inside a monorepo, take a look at [this](https://github.com/researchrag/aipm-langgraph-example-monorepo) repository for an example of how to do so.
 
 The final repo structure will look something like this:
 
@@ -97,7 +97,7 @@ my-app/
 
 Implement your graphs! Graphs can be defined in a single file or multiple files. Make note of the variable names of each [CompiledGraph][compiledgraph] to be included in the LangGraph application. The variable names will be used later when creating the [LangGraph API configuration file](../reference/cli.md#configuration-file).
 
-Example `agent.py` file, which shows how to import from other modules you define (code for the modules is not shown here, please see [this repo](https://github.com/langchain-ai/langgraph-example) to see their implementation):
+Example `agent.py` file, which shows how to import from other modules you define (code for the modules is not shown here, please see [this repo](https://github.com/researchrag/aipm-langgraph-example) to see their implementation):
 
 ```python
 # my_agent/agent.py

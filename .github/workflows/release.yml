@@ -82,7 +82,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: langchain-ai/langgraph
+          repository: researchrag/aipm-langgraph
           path: langgraph
           sparse-checkout: | # this only grabs files for relevant dir
             ${{ inputs.working-directory }}

@@ -17,9 +17,9 @@ body:
         
         [LangGraph documentation](https://langchain-ai.github.io/langgraph/).
         [LangChain documentation with the integrated search](https://python.langchain.com/docs/get_started/introduction),
-        [GitHub search](https://github.com/langchain-ai/langgraph),
-        [LangChain Github Discussions](https://github.com/langchain-ai/langgraph/discussions),
-        [LangChain Github Issues](https://github.com/langchain-ai/langgraph/issues),
+        [GitHub search](https://github.com/researchrag/aipm-langgraph),
+        [LangChain Github Discussions](https://github.com/researchrag/aipm-langgraph/discussions),
+        [LangChain Github Issues](https://github.com/researchrag/aipm-langgraph/issues),
         [LangChain ChatBot](https://chat.langchain.com/)
   - type: checkboxes
     id: checks
@@ -35,7 +35,7 @@ body:
           required: true
         - label: I am sure that this is a bug in LangGraph/LangChain rather than my code.
           required: true
-        - label: I am sure this is better as an issue [rather than a GitHub discussion](https://github.com/langchain-ai/langgraph/discussions/new/choose), since this is a LangGraph bug and not a design question.
+        - label: I am sure this is better as an issue [rather than a GitHub discussion](https://github.com/researchrag/aipm-langgraph/discussions/new/choose), since this is a LangGraph bug and not a design question.
           required: true
   - type: textarea
     id: reproduction

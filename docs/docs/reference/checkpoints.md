@@ -7,7 +7,7 @@ You can [compile][langgraph.graph.MessageGraph.compile] any LangGraph workflow w
 - Resilience for long-running, error-prone agents
 - Time travel retry and branch from a previous checkpoint
 
-Key checkpointer interfaces and primitives are defined in [`langgraph_checkpoint`](https://github.com/langchain-ai/langgraph/tree/main/libs/checkpoint) library.
+Key checkpointer interfaces and primitives are defined in [`langgraph_checkpoint`](https://github.com/researchrag/aipm-langgraph/tree/main/libs/checkpoint) library.
 
 ### Checkpoint
 
