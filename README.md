@@ -12,7 +12,7 @@
 
 ## 概述
 
-[LangGraph](researchrag.github.io/aipm-langgraph/) 是一个用于构建具有状态的、多角色的 LLM 应用程序的库，用于创建代理和多代理工作流程。与其他 LLM 框架相比，它提供了以下核心优势：循环、可控性和持久性。LangGraph 允许您定义包含循环的流程，这对于大多数代理架构至关重要，使其有别于基于 DAG 的解决方案。作为一个非常底层的框架，它提供了对应用程序的流程和状态的精细控制，这对于创建可靠的代理至关重要。此外，LangGraph 包含内置的持久性，支持高级的人机交互和记忆功能。
+[LangGraph](https://researchrag.github.io/aipm-langgraph/) 是一个用于构建具有状态的、多角色的 LLM 应用程序的库，用于创建代理和多代理工作流程。与其他 LLM 框架相比，它提供了以下核心优势：循环、可控性和持久性。LangGraph 允许您定义包含循环的流程，这对于大多数代理架构至关重要，使其有别于基于 DAG 的解决方案。作为一个非常底层的框架，它提供了对应用程序的流程和状态的精细控制，这对于创建可靠的代理至关重要。此外，LangGraph 包含内置的持久性，支持高级的人机交互和记忆功能。
 
 LangGraph 受 [Pregel](https://research.google/pubs/pub37252/) 和 [Apache Beam](https://beam.apache.org/) 的启发。公共接口借鉴了 [NetworkX](https://networkx.org/documentation/latest/)。LangGraph 由 LangChain Inc（LangChain 的创建者）构建，但可以在没有 LangChain 的情况下使用。
 
